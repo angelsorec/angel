@@ -19,9 +19,10 @@ sudo apt-get install libstdc++6 -y
 sudo apt-get install lua-lgi -y
 sudo apt-get install libnotify-dev -y
 sudo chmod +x tg
-ANGEL.lua
+lua ANGEL.lua
 sudo chmod +x ANGEL
 sudo chmod +x ./BK
+./BK
 }
 if [ "$1" = "install" ]; then
 install
