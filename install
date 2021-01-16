@@ -22,7 +22,6 @@ sudo chmod +x tg
 lua ANGEL.lua
 sudo chmod +x ANGEL
 sudo chmod +x ./BK
-./BK
 }
 if [ "$1" = "install" ]; then
 install
